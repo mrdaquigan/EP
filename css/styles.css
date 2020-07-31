@@ -1,0 +1,61 @@
+body {font-family: Proxima Nova;font-weight: normal;}
+p {font-size: 14px;line-height: 20px;}
+h1,h2,h3,h4,h5,h6 {font-family: Proxima Nova;font-weight: bold;letter-spacing: 0.3em;text-transform: uppercase;  color: #2D827C;}
+
+.btn-outline-primary, .btn-outline-secondary {font-family: Proxima Nova;font-weight: bold;letter-spacing: 0.3em;font-size: 22px;}
+a.btn-more {display: inline-block; font-family: Proxima Nova;font-weight: bold;letter-spacing: 0.3em;font-size: 22px;color: #2D827C;margin-top: 1rem;}
+a.btn-more:hover {text-decoration: none;}
+.home header {position: absolute;left: 0;right: 0;top: 0;}
+header {background: #e5fdfe;padding: 20px 0;}
+header nav.navbar ul.navbar-nav li a.nav-link {font-family: Proxima Nova;font-weight: normal;  text-transform: uppercase;padding: .5em 1.5em;}
+header nav.navbar ul.navbar-nav li.active {position: relative;}
+header nav.navbar ul.navbar-nav li.active:before {content: '';position: absolute;bottom: 0;display: inline-block;width: 50px;height: 3px;left: 50%;-webkit-transform: translateX(-50%);transform: translateX(-50%);background-color: #429791;}
+.navbar-brand .logo {width: 157px;}
+#banner {background: url(../img/banner-bg.png) center bottom;background-size: cover;padding: 160px 0 100px}
+#banner-content {background: #f2fefe;}
+#banner-content h3, #about-content h3 {text-align: center;}
+#about-content {background: #f2fefe;padding: 60px 0;}
+#bottom-content {background: #f2fefe;padding: 60px 0;text-align: center;}
+#story .p-md {padding: 3rem;}
+.carousel-indicators {margin: 40px 0 20px;}
+.social-links ul {list-style-type: none;padding: 0;display: flex;margin: 0;}
+.social-links ul li a {color: #333;padding: 0 15px;}
+.partner-links ul {list-style-type: none;padding: 0;display: flex;margin: 0;justify-content: space-between;align-items: center;margin-bottom: 30px;}
+.partner-links ul li a {padding: 15px;display: inline-block;}
+footer {background: #D0F1F4;padding: 30px 0;}
+footer .footer-nav {list-style-type: none;display: flex;justify-content: flex-end;padding: 0;margin: 0;}
+footer .footer-nav a {font-size: 14px;color: #666666;}
+
+@media (max-width: 1199px) {
+  #story .p-md {padding: 0 2rem;}
+  h3 {font-size: 22px;}
+  p {font-size: 13px;line-height: 18px;margin-bottom: 1rem;}  
+  .btn-outline-primary, .btn-outline-secondary, a.btn-more {font-size: 17px;}
+  #story .p-md {padding: 2rem 0;}  
+}
+
+@media (max-width: 991px) {
+  #story .p-md {padding: 0 2rem;}
+  h3 {font-size: 18px;margin-bottom: 1rem;}
+  p {font-size: 12px;line-height: 16px;margin-bottom: 1rem;}  
+  ul.footer-nav a {font-size: 12px;line-height: 18px;margin-top: 1rem;}
+  .btn-outline-primary, .btn-outline-secondary, a.btn-more {font-size: 14px;margin-top: 0;    }
+  #story .p-md {padding: 0;}
+  .navbar-nav {display: flex;text-align: center;z-index: 999;position: relative;background: #e4fcfd;}    
+}
+
+@media (max-width: 767px) {
+  header nav.navbar ul.navbar-nav li a.nav-link {font-size: 14px;}
+  #bottom-content, #about-content {padding: 30px 0;}
+  p {font-size: 12px;line-height: 18px;margin-bottom: 1rem;}  
+  #story .p-md {padding: 2rem 0;}  
+  .navbar-brand .logo {width: 120px;}  
+  .social-links ul li a {padding: 0 10px;}
+  footer .footer-logo {text-align: center;}
+  footer .footer-logo a {margin: 0;}
+  ul.footer-nav {justify-content: center;}
+}
+
+@font-face { font-family: Proxima Nova;src: url(../fonts/Proxima Nova Bold.otf);font-weight: bold;}
+@font-face { font-family: Proxima Nova;src: url(../fonts/ProximaNova-Regular.otf);font-weight: normal;}
+
