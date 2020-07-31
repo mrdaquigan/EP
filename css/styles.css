@@ -5,7 +5,7 @@ h1,h2,h3,h4,h5,h6 {font-family: Proxima Nova;font-weight: bold;letter-spacing: 0
 .btn-outline-primary, .btn-outline-secondary {font-family: Proxima Nova;font-weight: bold;letter-spacing: 0.3em;font-size: 22px;}
 a.btn-more {display: inline-block; font-family: Proxima Nova;font-weight: bold;letter-spacing: 0.3em;font-size: 22px;color: #2D827C;margin-top: 1rem;}
 a.btn-more:hover {text-decoration: none;}
-.home header {position: absolute;left: 0;right: 0;top: 0;}
+.home header {position: absolute;left: 0;right: 0;top: 0;z-index: 9;}
 header {background: #e5fdfe;padding: 20px 0;}
 header nav.navbar ul.navbar-nav li a.nav-link {font-family: Proxima Nova;font-weight: normal;  text-transform: uppercase;padding: .5em 1.5em;}
 header nav.navbar ul.navbar-nav li.active {position: relative;}
